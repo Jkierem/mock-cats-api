@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-read --allow-write --allow-net --watch main.ts"
+  },
+  "imports": {
+    "@effect": "npm:effect@3.10.16",
+    "@wogo/net": "jsr:@wogo/net@1.3.0"
+  }
+}
